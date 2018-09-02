@@ -164,7 +164,7 @@ background-attachment: fixed;
   float:right;
   background-image: url("../img/bg-about.jpg");
   border-left: 200px solid white;
-  border-top: 700px solid transparent; 
+  border-top: 700px solid transparent;
 }
 
 #about-content-box {
@@ -193,6 +193,26 @@ background-attachment: fixed;
 #about-desc p {
   margin-bottom: 30px;
 }
+
+/*===================WORK=========================  */
+
+.row.no-gutters [class*=col-]{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.img-wrapper {
+  overflow: hidden;
+}
+.img-wrapper img {
+  transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+  transform:scale(1.5);
+  cursor: zoom-in 
+}
+
 /*==============ANIMATE================  */
 #home-cover,#home-heading, #home-btn {
   animation-duration: .5s;
