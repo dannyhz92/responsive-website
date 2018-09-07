@@ -234,7 +234,7 @@ h4.team-member-designation {
   font-weight: 700;
   font-style: italic;
   letter-spacing: 1px;
-  margin-top: 5px; s
+  margin-top: 5px;
 }
 
 /*=======================Social list===============  */
@@ -242,7 +242,7 @@ h4.team-member-designation {
   padding-left: 0;
 }
 
-.social-lit li {
+.social-list li {
   list-style: none;
   display:inline-block;
   width: 32px;
@@ -322,8 +322,96 @@ h4.team-member-designation {
   font-size: 17px;
 }
 .testimonial-author p strong {
-  display: block; 
+  display: block;
 }
+
+/*===================Pricing boxes=========================  */
+
+.pricing-box {
+  border: 3px solid #34c6d3;
+  padding: 50px 0;
+  margin: 40px 0;
+}
+
+h4.pricing-title {
+  background-color: #34c6d3;
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+}
+
+h3.pricing-value {
+  font-size: 60px;
+  font-weight: 700;
+}
+h3.pricing-value sup {
+   font-size: 28px;
+   font-weight: normal;
+   vertical-align: super;
+}
+
+ul.pricing-spec {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0 60px 0;
+}
+
+ul.pricing-spec li p {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.pricing-box-lg {
+  padding: 90px 0;
+  margin: 0;
+  background-color: #34c6d3;
+}
+
+.pricing-box-lg h4.pricing-title {
+  color: #34c6d3;
+  background-color: #fff;
+}
+.pricing-box-lg ul.pricing-spec li p {
+  color: #fff;
+}
+
+/*===============stats ================  */
+
+#stats-cover {
+  background-image: url("../img/bg-stats.jpg");
+}
+
+#stats .content-box {
+  background-color: rgba(0,0,0,.8)
+}
+
+.stats-item {
+  padding: 100px 0;
+
+}
+.stats-item i {
+  color: #34c6d3;
+}
+
+.stats-item h2  {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+
+.stats-item p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 0; 
+}
+
 /*==============ANIMATE================  */
 #home-cover,#home-heading, #home-btn {
   animation-duration: .5s;
