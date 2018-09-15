@@ -65,8 +65,11 @@ $(function(){
    $(window).scroll(function(){
      if($(window).scrollTop() < 50 ){
        $("nav").removeClass("vesco-top-nav");
+       $("#back-to-top").fadeOut();
      } else {
        $("nav").addClass("vesco-top-nav");
+       $("#back-to-top").fadeIn();
+
      }
    });
 
@@ -82,5 +85,11 @@ $(function(){
       scrollTop: $(section).offset().top - 64
     },1250, "easeInOutExpo");
 
+  });
+});
+
+$(function(){
+  $(".navbar-collapse ul li a").on("click touch", function(){
+    $(".navbar-toggle").click();
   });
 });
