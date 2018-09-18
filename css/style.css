@@ -163,7 +163,7 @@ background-attachment: fixed;
   font-size: 22px;
   padding: 3px 15px;
   border-radius: 0;
-  display: none; 
+  display: none;
 }
 
 /*=====================ABOUT =====================  */
@@ -216,11 +216,16 @@ background-attachment: fixed;
 }
 .img-wrapper img {
   transition: transform .5s ease;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease;
 }
 
 .img-wrapper img:hover {
-  transform:scale(1.5);
-  cursor: zoom-in
+  -webkit-transform:scale(1.5);
+transform:scale(1.5);
+  cursor: zoom-in;
 }
 
 /*==================team ==================  */
@@ -511,6 +516,10 @@ form .form-control {
 
 #footer-menu a:hover {
   color: #34c6d3;
+}
+
+address strong {
+  font-size: 16px;
 }
 
 /*==================NAVbar=================  */
